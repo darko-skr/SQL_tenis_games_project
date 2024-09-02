@@ -12,14 +12,18 @@ This project is a PostgreSQL-based database designed to manage data related to t
 
 # Schema Overview
 
--Players: Stores information about tennis players, such as first name, last name, and birth date.
+- Players: Stores information about tennis players, such as first name, last name, and birth date.
 
--Tournaments: Contains data on tennis tournaments, including the surface type (Clay, Grass, Hard) and the tournament name.
+- Tournaments: Contains data on tennis tournaments, including the surface type (Clay, Grass, Hard) and the tournament name.
 
--Tournament Editions: Tracks different editions of a tournament by year and includes the start and end dates.
+- Tournament Editions: Tracks different editions of a tournament by year and includes the start and end dates.
 
--Matches: Stores data about matches between players, including the players involved, the match date, and the round (e.g., final).
+- Matches: Stores data about matches between players, including the players involved, the match date, and the round (e.g., final).
 
--Player Matches: Records the participation of players in specific matches and the round they reached.
+- Player Matches: Records the participation of players in specific matches and the round they reached.
 
--Prize Money: Tracks the prize distribution based on the round achieved for each tournament.
+- Prize Money: Tracks the prize distribution based on the round achieved for each tournament.
+
+# Analytical Queries
+
+This project also includes a range of analytical SQL queries that demonstrate the database's potential for data analysis and reporting:
