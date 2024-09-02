@@ -1,19 +1,15 @@
--- SELECT current_database(), current_schema(), current_user;
+SELECT current_database(), current_schema(), current_user;
 
-
--- CREATE USER tennis WITH PASSWORD '123';
-
-
---    CREATE SCHEMA tennis;	--- można authorization dodać i kolejny krok niepotrzebny
+CREATE USER tennis WITH PASSWORD '**************';
+CREATE SCHEMA tennis;	
 -- specifying the schema owner
--- 	ALTER SCHEMA tennis OWNER TO tennis;
+ALTER SCHEMA tennis OWNER TO tennis;
 	
 -- assigning the default schema to the user
--- 	SHOW search_path;
--- 	SET search_path TO tennis,public;
--- 	ALTER USER tennis set SEARCH_PATH = 'tennis';
+SHOW search_path;
+SET search_path TO tennis,public;
+ALTER USER tennis set SEARCH_PATH = 'tennis';
 
-SELECT * FROM players
 
 DROP TABLE IF EXISTS Players CASCADE;
 CREATE TABLE Players (
