@@ -27,3 +27,4 @@ This project is a PostgreSQL-based database designed to manage data related to t
 # Analytical Queries
 
 This project also includes a range of analytical SQL queries that demonstrate the database's potential for data analysis and reporting:
+[SQL Analysis](https://github.com/darko-skr/tenis_games_project/blob/main/project_sql/SQL_Analysis.sql)
